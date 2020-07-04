@@ -1,0 +1,2 @@
+rootProject.name='MyShell_Target'
+include ':app'
