@@ -46,7 +46,7 @@ public class Hotfix {
 
         try {
             //新的dexElements
-            Object pathDexElements =getDexElements(getPathList(dexClassLoader));
+            Object pathDexElements = getDexElements(getPathList(dexClassLoader));
             //原来的dexElements
             ClassLoader baseDexClassLoader = context.getClassLoader();
             Object dexPathListObj = getPathList(baseDexClassLoader);
